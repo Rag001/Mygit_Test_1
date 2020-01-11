@@ -8,6 +8,7 @@ import com.sb.entity.SBPaymentEntity;
 @Mapper
 public interface SBDataMapper {
 	
+	
 	SBPaymentEntity dtoToEntity(SBPayment dto);
 
 }
